@@ -19,7 +19,20 @@ public class Ticket {
     public String getDescricao() {
         return descricao;
     }
+
+    public void setDescricao(String descricao) {
+        if(descricao != null && !descricao.trim().isEmpty()) {
+            this.descricao = descricao;
+        } else {
+            System.out.println("A descriçãp não pode ser vazia.");
+        }
+    }
+
     public Prioridade getPrioridade() {
         return prioridade;
+    }
+
+    public void setPrioridade(Prioridade prioridade) {
+        this.prioridade = prioridade;
     }
 }
