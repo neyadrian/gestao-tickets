@@ -11,4 +11,15 @@ public class Ticket {
         setDescricao(descricao);
         this.prioridade = prioridade;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+    public Prioridade getPrioridade() {
+        return prioridade;
+    }
 }
