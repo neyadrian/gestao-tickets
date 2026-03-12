@@ -1,6 +1,9 @@
 package software.modelo;
 
 public class Ticket {
+
+    public static final String SISTEMA_SUPORTE = "SISTEMA_SUPORTE_V1";
+
     private int id;
     private String descricao;
     private Prioridade prioridade;
@@ -10,6 +13,17 @@ public class Ticket {
         this.id = contador++;
         setDescricao(descricao);
         this.prioridade = prioridade;
+    }
+
+    public String exibirDetalhes() {
+        return String.format(
+                "[%s] Ticket ID: %d | Descrição: %s | Prioridade: %s | Prazo: %dh",
+                SISTEMA_SUPORTE,
+                this.id,
+                this.descricao,
+                this.prioridade,
+                this.prioridade.getPrazoHoras()
+        );
     }
 
     public int getId() {
