@@ -7,7 +7,8 @@ public class Ticket {
     private static int contador = 1;
 
     public Ticket(String descricao, Prioridade prioridade) {
-        this.descricao = descricao;
+        this.id = contador++;
+        setDescricao(descricao);
         this.prioridade = prioridade;
     }
 }
