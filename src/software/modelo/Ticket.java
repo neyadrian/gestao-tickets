@@ -46,9 +46,7 @@ public class Ticket implements Comparable<Ticket> {
         return contador - 1;
     }
 
-    @Override
     public int compareTo(Ticket outro) {
-
         return outro.prioridade.ordinal() - this.prioridade.ordinal();
     }
 }
