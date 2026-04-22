@@ -1,4 +1,3 @@
-```markdown
 # 🎫 Sistema de Gestão de Tickets de Suporte
 
 ## 📌 Contexto do Sistema
@@ -100,6 +99,6 @@ f) Ordenação
 ---
 
 ## 👨‍💻 Autor
+Ney Adrian
 
 Projeto desenvolvido para fins acadêmicos.
-```
