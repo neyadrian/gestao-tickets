@@ -104,4 +104,6 @@ f) Ordenação
 
 ## 👨‍💻 Autor
 Ney Adrian
+
+---
 Projeto desenvolvido para fins acadêmicos.
