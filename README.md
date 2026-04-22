@@ -8,17 +8,21 @@ O sistema organiza os chamados por prioridade e os armazena em memória.
 
 ## 🧱 Estrutura do Projeto
 
-src/software
-│
-├── modelo
+```
+
+src/
+└── software/
+├── modelo/
 │   ├── Prioridade.java
 │   └── Ticket.java
 │
-├── gestao
+├── gestao/
 │   └── GerenciadorTickets.java
 │
-└── main
-    └── Main.java
+└── main/
+└── Main.java
+
+```
 
 ---
 
@@ -100,5 +104,4 @@ f) Ordenação
 
 ## 👨‍💻 Autor
 Ney Adrian
-
 Projeto desenvolvido para fins acadêmicos.
